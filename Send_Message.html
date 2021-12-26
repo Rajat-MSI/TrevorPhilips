@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send message</title>
+    <!-- <link rel="stylesheet" href="trevor.css"> -->
+    <style>
+        body
+        {
+            background-color: #F5E6CA;
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(247, 250, 69);
+        }
+        table
+        {
+            border:lightgray 2px dashed;
+            padding:10px; 
+        }
+       
+    </style>
+</head>
+<body>
+    <h3>Send Message</h3>
+    <form action="mailto:sharmarajat532@gmail.com" method="post" enctype="text/plain">
+        <table cellpadding="10px">
+            <tr>
+                <th colspan="2"><em>To : trev@eyefind.info</em></th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email address</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td><textarea name="message" rows="4" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit"></td>
+            </tr>
+            
+        </table>
+    </form>
+    
+</body>
+</html>
